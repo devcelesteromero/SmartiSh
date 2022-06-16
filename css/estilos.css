@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+header {
+    height: 100px;
+}
+
+.container__header {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 40px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.menu nav ul {
+    display: flex;
+}
+
+.menu nav ul li {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.menu nav ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    transition: opacity 300ms;
+}
+
+.menu nav ul li a:hover {
+    opacity: 0.6;
+}
+
+.btn__header-register,
+.btn__register-cover {
+    padding: 14px 50px;
+    border: none;
+    background: #000;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background, color, 300ms;
+}
+
+
+.btn__header-register:hover,
+.btn__register-cover:hover {
+    background: #69F1A1;
+    color: #000;
+}
+
+#icon_menu {
+    display: none;
+}
+
+/*PORTADA - COVER*/
+
+main {
+    max-width: 1200px;
+    height: calc(100vh + 800px);
+    padding: 40px;
+    margin: auto;
+}
+
+.cover {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.text__information-cover {
+    width: 50%;
+   
+}
+
+.text__information-cover h1 {
+    font-size: 50px;
+}
+
+.text__information-cover p {
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.buttons__cover {
+    display: flex;
+    margin-top: 40px;
+}
+
+.btn__readMore-cover {
+    padding: 14px 40px;
+    border: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background 300ms;
+}
+
+.btn__readMore-cover:hover {
+    background: #E8E8E8;
+}
+
+.media__cover {
+   width:400px;
+     
+   
+}
+
+
+.container__banner {
+    margin-top: 30%;
+}
+
+.banner {
+    height: 230px;
+    display: flex;
+    align-items: center;
+    margin:0;
+    background: #121214;
+    position: relative;
+}
+
+
+
+
+
+.banner__text {
+    width: 60%;
+    position: relative;
+    padding: 40px;
+}
+
+.banner__text h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+.banner__text h3 {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.banner__text a {
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 300ms;
+}
+
+.banner__text a:hover {
+    color: #69F1A1;
+}
+
+
+
+.container__article {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+
+
+}
+
+.article__content {
+    width: 1280px;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.articles__text {
+
+    width: 60%;
+    font-size: 20px;
+    margin: auto;
+   
+
+}
+
+.articles__img img {
+
+    height: auto;
+    width: 300px;
+    max-width: 100%;
+}
+
+.articles__text__r{
+    
+    font-size: 20px;
+    font-family: roboto;
+    width:50%;
+    
+   
+
+}
+
+.container__about__us{
+     width:100%;
+    height:auto; 
+    display:Flex;
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container__titulo{
+    margin-top: 10vh;
+    width:100%;
+    height: auto;
+    margin-bottom: 15vh;
+    
+}
+
+.container__titulo h1{
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    background:black;
+    padding: 15px ;
+}
+
+.about__us__content{
+   width: 330px;
+   height: 415px;
+   padding: 60px 30px;
+   background:#f2f3f7;
+   box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+   -0.5em -0.5em 1em #ffff;
+   border-radius:20px;
+   box-sizing: border-box;
+   margin:auto;
+   margin-bottom: 10vh;
+  
+}
+
+.about__us__card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about__us__card img{
+    top:0;
+    left:0;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.about__us__text h3{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+
+.about__us__text p{
+    
+    text-align: center;
+    
+}
+
+
+
+@media (max-width: 1024px) {
+
+    .container__header,
+    main {
+        padding: 20px;
+    }
+
+    #icon_menu {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .header__register {
+        display: none;
+    }
+
+    .menu {
+        height: 0px;
+        position: absolute;
+        right: 20px;
+        top: 70px;
+        overflow: hidden;
+        z-index: 10;
+        box-shadow: 0px 0px 30px -20px rgba(0, 0, 0, 0.5);
+        transition: all 300ms;
+    }
+
+    .menu nav ul {
+        padding: 20px 0px;
+        flex-direction: column;
+        background: #fff;
+    }
+
+    .menu nav ul li {
+        padding: 10px 40px;
+    }
+
+    .mostrar_menu {
+        height: 235px;
+    }
+
+    .text__information-cover h1 {
+        font-size: 40px;
+    }
+
+    .text__information-cover p {
+        font-size: 16px;
+    }
+
+    .banner__text h2 {
+        font-size: 22px;
+    }
+
+    #icon {
+        left: -60px;
+    }
+
+
+
+    @media (max-width: 920px) {
+        .text__information-cover {
+            width: 100%;
+        }
+
+        .media__cover {
+            display: none;
+        }
+
+        .banner {
+            width: 100%;
+            height: auto;
+            flex-wrap: wrap;
+        }
+
+      
+        #icon {
+            left: 0;
+        }
+
+        .banner__text {
+            width: 100%;
+            margin-top: -100px;
+        }
+
+        .articles__text__r{
+    
+            margin-bottom: 10em;
+           
+        
+        }
+    }
+
+
+
+}
